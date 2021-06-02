@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen32"
+    >
+
+    <LinearLayout
+        android:layout_width="357dp"
+        android:layout_height="616dp"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/account_findme"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.89"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.37"
+                android:fontFamily="@font/merienda_one"
+                android:textColor="@color/texUtama"/>
+
+            <TextView
+                android:id="@+id/id_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="DAHLIA"
+                android:textColor="@color/texUtama"
+                android:textSize="@dimen/dimen10"
+                app:fontFamily="@font/merienda_one"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.138"
+                app:layout_constraintStart_toEndOf="@+id/id_profile_dahlia"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/id_profile_dahlia"
+                android:layout_width="133dp"
+                android:layout_height="140dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/profile_dahlia" />
+
+            <TextView
+                android:id="@+id/id_lahir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Betung 12 Desember 2000"
+                android:textColor="@color/texUtama"
+                android:textSize="@dimen/dimen8"
+                app:fontFamily="@font/merienda_one"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.197"
+                app:layout_constraintStart_toEndOf="@+id/id_profileIqbal"
+                app:layout_constraintTop_toBottomOf="@+id/id_nama"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/id_desk"
+                android:layout_width="156dp"
+                android:layout_height="129dp"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:text="Dahlia adalah anak pertama dari dua bersaudara. Memiliki adik perempuan yang lebih muda 4 tahun. Termasuk orang yang bodo amat sama orang yang tidak terlalu ia kenal karena tidak ingin mengkhawatirkan banyak hal. Punya sesama teman yang sibuk memikirkan ukm yang sama"
+                android:textColor="@color/texUtama"
+                android:textSize="@dimen/dimen7"
+                app:fontFamily="@font/merienda_one"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.258"
+                app:layout_constraintStart_toEndOf="@+id/id_profile_dahlia"
+                app:layout_constraintTop_toBottomOf="@+id/id_lahir"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="63dp"
+                android:layout_height="69dp"
+                android:onClick="buka_map"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.848"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.482"
+                app:srcCompat="@drawable/ic_map" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/account_contactme"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.043"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.371"
+                android:fontFamily="@font/merienda_one"
+                android:textColor="@color/texUtama"
+                />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0853-7713-8274"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.051"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.457"
+                android:fontFamily="@font/merienda_one"
+                android:textColor="@color/texUtama"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="89dp"
+                android:onClick="buka_ig"
+                android:layout_height="78dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.046"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.572"
+                app:srcCompat="@drawable/ic_instagram" />
+
+            <ImageView
+                android:onClick="buka_blog"
+                android:id="@+id/imageView5"
+                android:layout_width="65dp"
+                android:layout_height="64dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.095"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.729"
+                app:srcCompat="@drawable/ic_web" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_about"
+                android:fontFamily="@font/merienda_one"
+                android:onClick="buka_dialog"
+                android:text="About"
+                android:textColor="@color/cardview_light_background"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.938"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.871" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:onClick="buka_email"
+                android:layout_width="67dp"
+                android:layout_height="84dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.089"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.906"
+                app:srcCompat="@drawable/ic_email" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

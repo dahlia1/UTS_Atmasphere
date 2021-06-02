@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen32"
+    >
+
+    <LinearLayout
+        android:layout_width="357dp"
+        android:layout_height="616dp"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/id_ketertarikanDesk"
+                android:layout_width="288dp"
+                android:layout_height="271dp"
+                android:layout_weight="1"
+                android:text="Memasak, khusus nya masakan Palembang. Bermain game (mobile legends, pubg mobile), liburan ke alam(mendaki gunung). Punya bisnis kecil-kecilan dulu pas SMA sama temen jualan makanan keliling pas waktu istirahat. Sekarang sedang menempuh pendidikan lebih lanjut di universitas komputer Indonesia. suka sama makanan yang berkuah apa aja pokoknya berkuah dan asin + pedes, kalau buat minuman suka semua sih tapi lebih suka jus jerukk"
+                android:textColor="@color/texUtama"
+                android:textSize="@dimen/dimen10"
+
+                app:fontFamily="@font/merienda_one"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.271"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.692" />
+
+            <TextView
+                android:id="@+id/id_ketertarikan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/fhome_ketertarikan"
+                android:textColor="@color/texUtama"
+                android:textSize="@dimen/dimen10"
+                app:fontFamily="@font/merienda_one"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.059"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.36" />
+
+            <TextView
+                android:id="@+id/id_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dahlia"
+                android:textColor="@color/texUtama"
+                android:textSize="@dimen/dimen10"
+                app:fontFamily="@font/merienda_one"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.138"
+                app:layout_constraintStart_toEndOf="@id/id_profile_dahlia"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/id_profile_dahlia"
+                android:layout_width="133dp"
+                android:layout_height="140dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/profile_dahlia" />
+
+            <TextView
+                android:id="@+id/id_lahir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Betung 12, Desember 2000"
+                android:textColor="@color/texUtama"
+                android:textSize="@dimen/dimen8"
+                app:fontFamily="@font/merienda_one"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.197"
+                app:layout_constraintStart_toEndOf="@id/id_profile_dahlia"
+                app:layout_constraintTop_toBottomOf="@+id/id_nama"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/id_desk"
+                android:layout_width="156dp"
+                android:layout_height="129dp"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:text="Dahlia adalah anak pertama dari dua bersaudara. Memiliki adik perempuan yang lebih muda 4 tahun. Termasuk orang yang bodo amat sama orang yang tidak terlalu ia kenal karena tidak ingin mengkhawatirkan banyak hal. Punya sesama teman yang sibuk memikirkan ukm yang sama"
+                android:textColor="@color/texUtama"
+                android:textSize="@dimen/dimen7"
+                app:fontFamily="@font/merienda_one"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.258"
+                app:layout_constraintStart_toEndOf="@id/id_profile_dahlia"
+                app:layout_constraintTop_toBottomOf="@+id/id_lahir"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

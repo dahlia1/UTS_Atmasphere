@@ -1,0 +1,8 @@
+TO DO LIST
+
+Layout Fragment Daily ---------------------------------
+Konten Fragment Daily ----------------------------------- tinggal foto friendlist
+Fragment Account serta layouting
+Merapikan layout serta string yang digunakan
+Merapikan coment dan menghapus yang tidak digunakan lagi
+Membuat desain pageviewer (Walkthrough) serta splashscreen

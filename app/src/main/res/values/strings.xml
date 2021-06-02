@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Atmasphere Apps</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+
+    <string name="slide_1_title">KULINER</string>
+    <string name="slide_1_desc">Rasakan Berbagai Kuliner yang Akan Memanjakan Lidahmu</string>
+
+    <string name="slide_2_title">HOTEL</string>
+    <string name="slide_2_desc">Temukan Hotel yang Nyaman Untuk Istirahat Perjalananmu</string>
+
+    <string name="slide_3_title">WISATA</string>
+    <string name="slide_3_desc">Destinasi Menarik Menantimu. Segera Pilih Destinasi Wisatamu</string>
+
+    <string name="slide_4_title">GUIDE</string>
+    <string name="slide_4_desc">Cari Guide Untuk Menemani Perjalananmu Agar  semakin asyik </string>
+
+
+
+
+
+    <!--Menu Buttom Navigation-->
+    <string name="home">Home</string>
+    <string name="activity">Daily Activity</string>
+    <string name="gallery">Gallery</string>
+    <string name="music">Music</string>
+    <string name="favorite">Favorite</string>
+    <string name="account">Account</string>
+
+
+
+    <!--Fragment Home-->
+    <string name="fhome_nama">Iqbal Atma Muliawan</string>
+    <string name="fhome_lahir">Lahir di Selakau, 16 Februari 1999</string>
+    <string name="fhome_desk">Iqbal merupakan anak kedua dari dua bersaudara.
+        Memiliki kakak perempuan yang lebih tua 4 tahun.
+        Tertarik pada teknologi dan bagaimana sesuatu dapan terjadi sejak kecil.
+        Termasuk orang yang memiliki kadar "bodo amat" yang tinggi karena tidak terlalu mengkhawatirkan banyak hal.
+        Selalu menjadi tempat bercerita yang nyaman untuk orang disekitarnya.
+        Punya teman yang selalu siap diajak kemanapun.
+    </string>
+    <string name="fhome_ketertarikan">Ketertarikan . . .</string>
+    <string name="fhome_hobi">Membaca Buku.
+        Memasak khususnya yang di goreng dan dibakar.
+        Bermain Game (R6, World of Warship, WWZ).
+        Liburan ke alam (Mendaki gunung, main ke pantai, jelajah hutan).
+        Fotografi (khususnya landscape dan street photography).
+        Bercita-cita menjadi Pak Haji ketika TK.
+        Menjadi Tentara ketika SD-SMP karena game PS2.
+        Punya bisnis rumah makan ketika SMA karena suka masak.
+        Sekarang menjadi enginer berharap bisa freelance bergaji 10 juta seminggu
+    </string>
+    <string name="fhome_ketertarikanDesk">Tertarik dengan dunia fotografi.
+        Lebih cenderung ke landscape karena memang Iqbal senang liburan menjelajah alam.
+        Iqbal senang mendaki gunung, main ke pantai, bahkan jelajah hutan.
+        Selain mendaki gunung dan hal-hal yang berkaitan dengan alam Iqbal juga senang membaca buku.
+        Buku pertama yang membuatnya senang membaca hingga sekarang adalah "Sepotong Hati yang Baru" karya Tere Liye.
+        Setelah buku itu Iqbal mulai senang membaca buku. Setiap bulan menyisihkan uang jajan untuk membeli buku.
+        Kalau di yotube Iqbal juga senang mendengarkan pemaparan orang-orang terkait ekonomi, politik, bahkan geostrategis.
+        Iqbal juga senang bermain game. Sudah banyak game yang pernah dimainkan tapi saat ini hanya ada beberapa
+        game yang masih dimainkan seperti WWZ, R6, World of Warship.</string>
+
+
+
+    <!--Fragment Gallery-->
+
+
+
+<!--    Fragment Daily -->
+    <string name="daily_my_daily">My Daily Activity</string>
+
+<!--    Fragment Account -->
+    <string name="account_contactme">Contact Me</string>
+    <string name="account_phone_number">0895-3511-72040</string>
+    <string name="account_findme">Find Me Here</string>
+
+</resources>
